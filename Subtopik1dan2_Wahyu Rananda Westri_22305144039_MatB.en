@@ -1,0 +1,467 @@
+﻿>
+% Nama     : Wahyu Rananda Westri
+%% NIM      : 22305144039
+%% Kelas    : Matematika B
+%% Kelompok : 3
+% 
+% * URAIAN MATERI
+% 
+% DEFINISI FUNGSI
+% 
+% Sebuah fungsi f adalah suatu aturan padanan yang menghubungkan tiap
+% obyek x dalam satu himpunan, yang disebut daerah asal, dengan sebuah
+% nilai unik f(x) dari himpunan kedua.  Himpunan nilai yang diperoleh
+% secara demikian disebut daerah hasil.
+% 
+% DEFINISI FUNGSI DUA VARIABEL
+% 
+% Sebuah fungsi bernilai-riil dari dua variabel riil; yakni, fungsi f
+% yang memadankan setiap pasangan terurut (x,y) pada suatu himpunan D
+% dari bidang dengan satu dan hanya satu bilangan real yang ditulis
+% sebagai z = f (x,y).
+% 
+% Himpunan D disebut daerah asal fungsi. Sedangkan daerah nilai fungsi
+% adalah himpunan nilai-nilainya. Misalnya z = f (x,y), merupakan fungsi
+% dua variabel dengan x,y disebut sebagai variabel bebas(independent
+% variable) dan z variabel tak bebas (dependent variable).
+%% Sebagai contoh
+%% latex: z=f(x,y)=x^2+2y^3
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-001.png
+% // latex: z=f(x,y)=x^2+2y^3
+% 
+% Perhatikan grafik fungsi permukaan bola dengan persamaan
+%% latex: x^2+y^2+z^2=1
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-002.png
+% // latex: x^2+y^2+z^2=1
+%% yang berpusat di titik asal O(0,0,0) dan berjari-jari 1. Dalam
+% permukaan tersebut titik-titik (x,y)=(0,0) berpadanan dengan dua nilai
+% z, yakni -1 dan 1.  Artinya oleh permukaan tersebut terdapat pemetaan
+% dari(0,0) ke dua nilai berbeda, maka pemetaan seperti itu bukan
+% merupakan suatu fungsi.
+% 
+% PERMUKAAN DALAM R^3(RUANG DIMENSI 3)
+% 
+% Terdapat tiga sumbu koordinat yang saling tegak lurus yaitu: sumbu x,
+% sumbu y, sumbu z. Ruang R^3 oleh ketiga sumbu x,y,z tersekat dalam
+% delapan oktan. Kumpulan dari titik-titik di R^3 dapat berupa kurva
+% ataupun permukaan.  Dalam R^3 terdapat permukaan linear(berupa bidang
+% datar) dan kuadratik(berupa bidang lengkung). Permukaan linear tidak
+% mungkin dapat dibuat keseluruhan bidangnya, cukup digambar wakil
+% bidang yang dapat berupa segitiga, segiempat, dll. Permukaan kuadratik
+% dapat berupa permukaan bola, elipsoida, paraboloida, tabung elips,
+% tabung lingkaran, atau tabung parabola. Beberapa persamaan umum dari
+% permukaan kuadratik.
+%% - Bola:
+%% latex: x^2+y^2+z^2=a^2, a>0
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-003.png
+% // latex: x^2+y^2+z^2=a^2, a>0
+%% - Elipsoida:
+%% latex: \frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=1, a,b,c>0
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-004.png
+% // latex: \frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=1, a,b,c>0
+%% - Hiperboloida Berdaun Satu:
+%% latex: \frac{x^2}{a^2}+\frac{y^2}{b^2}-\frac{z^2}{c^2}=1, a,b,c>0
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-005.png
+% // latex: \frac{x^2}{a^2}+\frac{y^2}{b^2}-\frac{z^2}{c^2}=1, a,b,c>0
+%% - Hiperboloida Berdaun Dua:
+%% latex: \frac{x^2}{a^2}-\frac{y^2}{b^2}-\frac{z^2}{c^2}=1, a,b,c>0
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-006.png
+% // latex: \frac{x^2}{a^2}-\frac{y^2}{b^2}-\frac{z^2}{c^2}=1, a,b,c>0
+%% - Paraboloida Eliptik:
+%% latex: z=\frac{x^2}{a^2}+\frac{y^2}{b^2}, a,b>0
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-007.png
+% // latex: z=\frac{x^2}{a^2}+\frac{y^2}{b^2}, a,b>0
+%% - Paraboloida Hiperbolik:
+%% latex: z=\frac{y^2}{b^2}-\frac{x^2}{a^2}, a,b>0
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-008.png
+% // latex: z=\frac{y^2}{b^2}-\frac{x^2}{a^2}, a,b>0
+%% - Kerucut Eliptik:
+%% latex: \frac{x^2}{a^2}+\frac{y^2}{b^2}-\frac{z^2}{c^2}=0
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-009.png
+% // latex: \frac{x^2}{a^2}+\frac{y^2}{b^2}-\frac{z^2}{c^2}=0
+% 
+% Dalam menggambar sketsa permukaan, dapat dibuat langkah bantuan dengan
+% menggambar perpotongan permukaan tersebut dengan tiga bidang utama,
+% yaitu XOY, XOZ, dan YOZ.
+%% Jika permukaan sangat rumit,dapat digunakan komputer untuk menggambar
+% grafiknya,
+% 
+% 
+% GRAFIK FUNGSI DUA VARIABEL
+% 
+% Grafik fungsi dua variabel adalah himpunan
+%% latex: {(x,y,z)| z = f (x,y),(x,y) \in D}
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-010.png
+% // latex: {(x,y,z)| z = f (x,y),(x,y) \in D}
+%% yang merupakan himpunan titik dalam ruang atau R3. Himpunan ini pada
+% umumnya membentuk permukaan di ruang. Ketika kita menyebut grafik dari
+% fungsi f dengan dua variabel, yang dimaksud adalah grafik dari
+% persamaan z = f (x,y).
+% 
+% Beberapa fungsi matematika yang terlibat dalam menggambar grafik
+% fungsi dua varibel.
+%% 1. Fungsi Linear
+%% Bentuk umum
+%% latex: f(x, y) = ax + by + c
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-011.png
+% // latex: f(x, y) = ax + by + c
+%% di mana a, b, dan c adalah konstanta. Grafiknya adalah bidang datar.
+%% Contoh:
+%% latex: f(x,y)=2x+5y+3
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-012.png
+% // latex: f(x,y)=2x+5y+3
+% 
+% 2. Fungsi Kuadratik
+%% Bentuk umum
+%% latex: f(x, y) = ax^2 + by^2 + cxy + dx + ey + f.
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-013.png
+% // latex: f(x, y) = ax^2 + by^2 + cxy + dx + ey + f.
+%% dimana a, b, c, d, e, dan f adalah konstanta. Grafik fungsi kuadrat
+% ini adalah sebuah permukaan yang dapat memiliki berbagai bentuk
+% tergantung pada nilai-nilai konstantanya.
+%% Contoh:
+%% latex: f(x,y)=2x^2-4y^2+3xy
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-014.png
+% // latex: f(x,y)=2x^2-4y^2+3xy
+% 
+% 3.Fungsi Trigonometri
+%% Fungsi trigonometri dua variabel adalah fungsi matematika yang
+% melibatkan operasi trigonometri (seperti sin, cos, tan) pada kedua
+% variabel x dan y. Contoh:
+%% latex: f(x,y)=\sin{x}.\cos{y}
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-015.png
+% // latex: f(x,y)=\sin{x}.\cos{y}
+% 
+% 4.Fungsi Aljabar
+%% Fungsi aljabar adalah fungsi yang bisa didefinisikan sebagai akar dari
+% sebuah persamaan aljabar. Fungsi aljabar merupakan ekspresi aljabar
+% menggunakan sejumlah suku terbatas, yang melibatkan operasi aljabar
+% seperti penambahan, pengurangan, perkalian, pembagian, dan peningkatan
+% menjadi pangkat pecahan. Contoh dari fungsi tersebut adalah:
+%% latex: f(x,y)=1/xy
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-016.png
+% // latex: f(x,y)=1/xy
+%% latex: f(x,y)=\sqrt{xy}
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-017.png
+% // latex: f(x,y)=\sqrt{xy}
+%% latex: f(x,y)=\frac{\sqrt{1+x^3}}{3^{3/7}-\sqrt{7}y^{1/3}}
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-018.png
+% // latex: f(x,y)=\frac{\sqrt{1+x^3}}{3^{3/7}-\sqrt{7}y^{1/3}}
+% 
+% 5.Fungsi Eksponensial
+%% Fungsi eksponensial dua variabel bisa dinyatakan
+%% latex: f(x,y)=a.b^{xy}
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-019.png
+% // latex: f(x,y)=a.b^{xy}
+%% dimana a dan b adalah konstanta, x dan y adalah variabel. Fungsi ini
+% menggambarkan pertumbuhan eksponensial yang bergantung pada nilai x
+% dan y.
+% 
+% Contoh:
+%% latex: f(x,y)= 2.3^{xy}
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-020.png
+% // latex: f(x,y)= 2.3^{xy}
+% 
+% 
+% ** 1. Menggambar Grafik Fungsi Dua Variabel dalam Bentuk Ekspresi
+% Langsung
+% 
+% Grafik fungsi dua variabel dalam bentuk ekspresi langsung adalah
+% representasi visual dari hubungan matematis antara dua variabel
+% independen yang dinyatakan dalam bentuk persamaan atau ekspresi
+% matematis.
+% 
+% ** Contoh Soal 1(Fungsi Kuadratik)
+%% Gambarlah grafik dari fungsi berikut.
+%% latex: f(x,y)=2x^2+3y^2
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-021.png
+% // latex: f(x,y)=2x^2+3y^2
+>
+>plot3d("2*x^2+3*y^2",n=40,grid=2):
+ %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-022.png
+>
+% Gambar di atas menampilkan grafik fungsi dengan n=40 dan grid=2.
+%% - n = jumlah interval kisi-kisi,jumlah n default=40
+%% - grid = jumlah garis kisi di setiap arah, jumlah grid default=10
+% 
+% Penjelasan:
+%% misalkan
+%% latex: z=2x^2+3y^2
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-023.png
+% // latex: z=2x^2+3y^2
+%% latex: z=\frac{x^2}{\frac{1}{2}}+\frac{y^2}{\frac{1}{3}}
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-024.png
+% // latex: z=\frac{x^2}{\frac{1}{2}}+\frac{y^2}{\frac{1}{3}}
+%% (yang dikenal sebagai persamaan sebuah paraboloida eliptik)
+%% dan perhatikan bahwa
+%% latex: z\ge0
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-025.png
+% // latex: z\ge0
+% 
+% cari jejak pada bidang koordinat
+%% -bidang XOY(z=0):
+%% latex: \frac{x^2}{\frac{1}{2}}+\frac{y^2}{\frac{1}{3}}=0
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-026.png
+% // latex: \frac{x^2}{\frac{1}{2}}+\frac{y^2}{\frac{1}{3}}=0
+%% jika z=0 maka x^2 dan y^2 juga harus 0, maka diperoleh titik (0,0,0)
+% 
+% -bidang YOZ(x=0)
+%% latex: \frac{y^2}{\frac{1}{3}}=z
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-027.png
+% // latex: \frac{y^2}{\frac{1}{3}}=z
+%% latex: y^2={\frac{1}{3}}z
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-028.png
+% // latex: y^2={\frac{1}{3}}z
+%% (berupa parabola searah sumbu z dan titik puncaknya (0,0))
+% 
+% -bidang XOZ(y=0)
+%% latex: \frac{x^2}{\frac{1}{2}}=z
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-029.png
+% // latex: \frac{x^2}{\frac{1}{2}}=z
+%% latex: x^2={\frac{1}{2}}z
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-030.png
+% // latex: x^2={\frac{1}{2}}z
+%% (berupa parabola searah sumbu z dan titik puncaknya (0,0))
+% 
+% ** Contoh Soal 2(Fungsi Aljabar)
+%% Gambarlah grafik dari fungsi berikut.
+%% latex: f(x,y)=\sqrt{16-(x^2+y^2)}
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-031.png
+% // latex: f(x,y)=\sqrt{16-(x^2+y^2)}
+>plot3d("(16-x^2-y^2)^(1/2)",>user, ...
+>title= "Turn with the vector keys (press return to finish)"):
+ %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-032.png
+% Gambar di atas menampilkan grafik fungsi dengan menggunakan >user.
+%% Untuk menggunakan >user, kita dapat menekan tombol:
+%% - kiri,kanan,atas,bawah:putar sudut pandang
+%% - +-:memperbesar atau memperkecil
+%% - a:menghasilkan anaglyph
+%% - l:sakelar untuk memutar sumbu cahaya
+%% - spasi:setel ulang ke default
+%% - enter: mengakhiri interaksi
+% 
+% Penjelasan :
+%% misalkan
+%% latex: z=\sqrt{16-(x^2+y^2)}
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-033.png
+% // latex: z=\sqrt{16-(x^2+y^2)}
+%% dan perhatikan bahwa
+%% latex: z\ge 0
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-034.png
+% // latex: z\ge 0
+%% Jika kedua ruas dikuadratkan dan sederhanakan, akan kita peroleh
+% persamaan
+%% latex: x^2+y^2+z^2=16
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-035.png
+% // latex: x^2+y^2+z^2=16
+%% yang kita kenal sebagai persamaan sebuah bola.
+% 
+% cari jejak pada bidang koordinat
+%% -bidang XOY(z=0):
+%% latex: x^2+y^2=16
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-036.png
+% // latex: x^2+y^2=16
+%% (berupa lingkaran dengan pusat(0,0) dan jari-jari 4)
+%% -bidang YOZ(x=0)
+%% latex: y^2+z^2=16
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-037.png
+% // latex: y^2+z^2=16
+%% (berupa lingkaran dengan pusat(0,0) dan jari-jari 4)
+%% -bidang XOZ(y=0)
+%% latex: x^2+z^2=16
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-038.png
+% // latex: x^2+z^2=16
+%% (berupa lingkaran dengan pusat(0,0) dan jari-jari 4)
+% 
+>
+% ** Contoh Soal 3 (Fungsi Linear)
+%% Gambarlah grafik dari fungsi berikut.
+%% latex: f(x,y)=x+3y
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-039.png
+% // latex: f(x,y)=x+3y
+>  plot3d("x+3*y",angle=0°,a=-10,b=10,c=-10,d=10,fscale=10):
+ %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-040.png
+% Gambar di atas menampilkan grafik fungsi dengan angle=0
+% derajat,a=-10,b=10,c=-10,d=10,fscale=10.
+%% - angle: sudut pandang
+%% - a,b: rentang x
+%% - c,d: rentang y
+%% - fscale: skala ke nilai fungsi (defaultnya adalah <fscale)
+>
+% ** Contoh Soal 4(Fungsi Eksponensial)
+%% Gambarlah grafik dari fungsi berikut.
+%% latex: f(x,y)= (x^2+3y^2)e^{-x^2-y^2}
+>plot3d("(x^2+3*y^2)*E^(-x^2-y^2)",scale={1,2},xmin=-5,xmax=5,ymin=-7,ymax=7,frame=3):
+ %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-041.png
+% Gambar di atas menampilkan grafik fungsi dengan
+% scale=[1,2],xmin=-5,xmax=5,ymin=-7,ymax=7,frame=3.
+%% - scale: angka atau vektor 1x2 untuk menskalakan ke arah x dan y
+%% - xmin,xmax: rentang x
+%% - ymin,ymax: rentang y
+%% - frame: jenis bingkai (default 1)
+% 
+% ** Contoh Soal 5(Fungsi Trigonometri)
+%% Gambarlah grafik dari fungsi berikut.
+%% latex: f(x,y)=\sin{x}+\sin{y}
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-042.png
+% // latex: f(x,y)=\sin{x}+\sin{y}
+>
+>plot3d("sin(x)+sin(y)",r=2*pi,distance=3,zoom=1,center=[0.1,0,0],height=20°):
+ %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-043.png
+% Gambar di atas menampilkan grafik fungsi dengan
+% r=2pi,distance=3,zoom=1,center=[0.1,0,0],height=20 derajat.
+%% - r: dapat digunakan sebagai ganti xmin, xmax, ymin, ymax; r dapat
+% berupa vektor   [rx, ry] atau [rx, ry, rz]
+%% - distance: jarak pandang plot
+%% - zoom: nilai zoom
+%% - center: memindahkan bagian tengah plot
+%% - height: ketinggian tampilan dalam radian
+% 
+% Nilai default dari distance, zoom, angle, height dapat diperiksa atau
+% diubah dengan fungsi view. Fungsi ini mengembalikan parameter sesuai
+% urutan di atas.
+>view
+[5,  2.6,  2,  0.4]
+% 
+% ** 2. Menggambar Grafik Fungsi Dua Variabel yang Rumusnya Disimpan
+% dalam Variabel Ekspresi
+% 
+% Untuk menyimpan sebuah fungsi, dapat dilakukan menggunakan perintah
+% function.  Kemudian untuk memanggil atau membuat grafiknya tinggal
+% memanggil nama fungsi tersebut. Contohnya :
+>function b(x,y):=x^2-y^2;
+% selanjutnya kita akan membuat grafik dari fungsi tersebut
+>plot3d("b(x,y)"):
+ %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-044.png
+% selain cara di atas, kita juga bisa membuat grafik dari fungsi
+% tersebut dengan
+>plot3d("b"):
+ %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-045.png
+% ** Contoh Soal 1(Fungsi Kuadratik)
+%% Gambarlah grafik dari fungsi tersebut.
+%% latex: f(x,y)=-6-x^2-y^2
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-046.png
+% // latex: f(x,y)=-6-x^2-y^2
+>function p(x,y):=-6-x^2-y^2;
+>plot3d("p(x,y)",r=5, ...
+>fscale=2,n=10,zoom=2.7):
+ %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-047.png
+% Penjelasan :
+%% misalkan
+%% latex: z=-6-x^2-y^2
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-048.png
+% // latex: z=-6-x^2-y^2
+%% Cari domainnya
+%% latex: D_z= [(x,y)|x,y \in R^2]
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-049.png
+% // latex: D_z= [(x,y)|x,y \in R^2]
+%% Cari daerah hasilnya
+%% latex: R_z= [-\infty,-6]
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-050.png
+% // latex: R_z= [-\infty,-6]
+% 
+% ** Contoh Soal 2(Fungsi Aljabar)
+%% Gambarlah grafik dari fungsi berikut.
+%% latex: f(x,y)=\frac{1}{3}\sqrt{36-9x^2-4y^2}
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-051.png
+% // latex: f(x,y)=\frac{1}{3}\sqrt{36-9x^2-4y^2}
+>function z(x,y) :=1/3*(36-9*x^2-4*y^2)^(1/2); 
+>plot3d("z(x,y)",title="z=1/3*(36-9*x^2-4*y^2)^(1/2)",zoom=3):
+ %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-052.png
+% Penjelasan :
+%% misalkan
+%% latex: z=\frac{1}{3}\sqrt{36-9x^2-4y^2}
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-053.png
+% // latex: z=\frac{1}{3}\sqrt{36-9x^2-4y^2}
+%% dan perhatikan bahwa
+%% latex: z\ge0
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-054.png
+% // latex: z\ge0
+%% Jika kedua ruas di kuadratkan dan sederhanakan, akan diperoleh:
+%% latex: 9x^2+4y^2+9z^2=36
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-055.png
+% // latex: 9x^2+4y^2+9z^2=36
+%% yang dikenal sebagai persamaan sebuah elipsoida.
+% 
+% cari jejak pada bidang koordinat
+%% -bidang XOY(z=0):
+%% latex: 9x^2+4y^2=36
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-056.png
+% // latex: 9x^2+4y^2=36
+%% latex: \frac{x^2}{4}+\frac{y^2}{9}=1
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-057.png
+% // latex: \frac{x^2}{4}+\frac{y^2}{9}=1
+%% (berupa elips dengan pusat(0,0), titik puncak :
+% (0,-2),(0,2),(0,3),(0,-3))
+% 
+% -bidang YOZ(x=0)
+%% latex: 4y^2+9z^2=36
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-058.png
+% // latex: 4y^2+9z^2=36
+%% latex: \frac{y^2}{9}+\frac{z^2}{4}=1
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-059.png
+% // latex: \frac{y^2}{9}+\frac{z^2}{4}=1
+%% (berupa elips dengan pusat (0,0), titik puncak :
+% (0,-3),(0,3),(0,-2),(0,2))
+% 
+% -bidang XOZ(y=0)
+%% latex: 9x^2+9z^2=36
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-060.png
+% // latex: 9x^2+9z^2=36
+%% latex: x^2+z^2=4
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-061.png
+% // latex: x^2+z^2=4
+%% (berupa lingkaran dengan pusat(0,0), jari-jari=2)
+% 
+% ** Contoh Soal 3(Fungsi Linear)
+%% a) Gambarlah grafik dari fungsi tersebut.
+%% latex: f(x,y)=6-x-2y
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-062.png
+% // latex: f(x,y)=6-x-2y
+>function q(x,y):=6-x-2*y;
+>plot3d("q(x,y)",grid=5):
+ %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-063.png
+% b) Gambarlah grafik dari fungsi tersebut.
+%% latex: f(x,y)=6-x
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-064.png
+% // latex: f(x,y)=6-x
+>function j(x,y):=6-x;
+>plot3d("j"):
+ %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-065.png
+% Berikut adalah plot dari tiga fungsi.
+>plot3d("q","j","y",r=2,zoom=3,frame=3):
+ %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-066.png
+% ** Contoh Soal 4(Fungsi Eksponensial)
+%% a) Gambarlah grafik dari fungsi tersebut.
+%% latex: f(x,y)=e^{-(x^2+y^2)}
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-067.png
+% // latex: f(x,y)=e^{-(x^2+y^2)}
+>function n(x,y):= E^(-(x^2+y^2));
+>plot3d("n",>fscale,>scale):
+ %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-068.png
+% b) Gambarlah grafik dari fungsi pada contoh soal a dengan syarat:
+%% latex: 1\le x \le4
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-069.png
+% // latex: 1\le x \le4
+%% dan
+%% latex: 1\le y \le4
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-070.png
+% // latex: 1\le y \le4
+>
+>plot3d("n",a=1,b=4,c=1,d=4):
+ %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-071.png
+>
+% ** Contoh Soal 5(Fungsi Trigonometri)
+%% Gambarlah grafik dari fungsi tersebut.
+%% latex: f(x,y)=\frac{\sin{x}\sin{y}}{xy}
+% %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-072.png
+% // latex: f(x,y)=\frac{\sin{x}\sin{y}}{xy}
+>function m(x,y):=(sin(x)*sin(y))/x*y;
+>plot3d("m",r=10,angle=90°,fscale=-1,>user,>polar,color=red,>hue):
+ %image% Subtopik1dan2_Wahyu Rananda Westri_22305144039_MatB-073.png
+% Dalam membuat grafik di atas terdapat >polar.
+%% - >polar: menghasilkan plot polar
+%% - hue: mengaktifkan bayangan cahaya
+%% - color: mengatur warna pada grafik
+>
+>
